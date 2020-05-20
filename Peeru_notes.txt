@@ -1,0 +1,5 @@
+Eureka server 
+Hytrix -- circuit breaker
+Zipkins -- logs, intsance ids and some other metrics
+Rabit MQ -- Async MQ notification
+service discovery --eureka
