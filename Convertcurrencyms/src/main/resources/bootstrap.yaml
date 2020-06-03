@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    config:
+      uri: ${convertcurrencyms.configserverurl:http://localhost:8888}
+      fail-fast: false
+  application:
+    name: convertcurrencyms
+  profiles:    active: dev
+

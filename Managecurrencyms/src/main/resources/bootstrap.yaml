@@ -1,0 +1,10 @@
+spring:
+  #cloud:
+    #config:
+     # uri: ${managems.configserverurl:http://192.168.99.100:8888}
+     #fail-fast: false
+  application:
+    name: managems
+  #profiles:  #  active: dev
+
+server:  port: 0
