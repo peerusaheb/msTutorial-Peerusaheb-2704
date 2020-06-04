@@ -43,7 +43,7 @@ eureka:
     fetchRegistry: true
     prefer-same-zone-eureka: true
     serviceUrl:
-      defaultZone: ${managems.eureka.url:http://localhost:8010/eureka}
+      defaultZone: ${managems.eureka.url:http://localhost:8761/eureka}
 
 management:
   endpoints:

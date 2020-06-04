@@ -59,9 +59,9 @@ public class ManageCurrencyController {
 		
 	}
 
-	@RequestMapping(path = "/getConversionFactor", method = RequestMethod.GET)
-	public ManageCurrencyResponse  getConversionFactor1(@RequestBody ManageCurrencyRequest2 obj) {
-		ManageCurrency oCurrency = repo.findByCountryCode(obj.getCountryCode());	
+	@RequestMapping(path = "/getConversionFactor/{countryCode}", method = RequestMethod.GET)
+	public ManageCurrencyResponse  getConversionFactor1(@PathVariable Integer countryCode) {
+		ManageCurrency oCurrency = repo.findByCountryCode(countryCode);	
 		
 		if(oCurrency != null)
 		{
