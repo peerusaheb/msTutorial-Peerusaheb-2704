@@ -1,0 +1,10 @@
+spring:
+ # cloud:
+   # config:
+   #   uri: ${netflix-zuul-api-gateway-server.configserverurl:http://192.168.99.100:8888}
+   #   fail-fast: false
+  application:
+    name: netflix-zuul-api-gateway-server
+  #profiles:  #  active: dev
+
+server:  port: 8765

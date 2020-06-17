@@ -10,6 +10,7 @@ import javax.persistence.Id;
 public class ExchangeValue {
 	
 	@Id
+	@Column(name ="Country_code")
 	private long id;
 	@Column(name ="Currency_from")
 	private String from;

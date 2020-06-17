@@ -6,5 +6,5 @@ public interface ExchangeValueRepository
 			extends JpaRepository<ExchangeValue, Long> {
 	
 	ExchangeValue findByFromAndTo(String from,String to);
-
+	//ExchangeValue findById(int id);
 }
